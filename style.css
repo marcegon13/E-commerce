@@ -1,17 +1,16 @@
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
-  .container-1 {
-    display: block;
-    border: black;
-    padding: auto;
-  }
+.container{
+  display: block;
+  flex-direction: row;
+ }
   
-  .marco1 {
+ .marco1 {
+    
     padding: 20px 20px 2px 20px;
     width: 250px;
     border: 1px solid #999999;
@@ -48,11 +47,11 @@
     border-radius: 8px;
     padding: 10px
   }
-  @media (max-width: 800px) {
+  @media (max-width: 879px) {
     .flex-container {
         flex-direction: column;
         width: 50%;
-        margin-left: 15%;
+        margin-left: 20%;
         margin-bottom: 10px;
         justify-content: center;
         align-items: center;
